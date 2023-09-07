@@ -1,6 +1,9 @@
 # MediCount - Tu Asistente para la Administración de Medicamentos
 MediCount es una aplicación móvil diseñada para simplificar la gestión de medicamentos, ofreciendo a los usuarios recordatorios precisos y un seguimiento completo de sus tomas de medicamentos. Nuestra aplicación se enfoca en brindar comodidad y control a los usuarios, independientemente de su nivel de experiencia con dispositivos móviles.
 
+## Documentación
+[IEEE-830](https://docs.google.com/document/d/1yFRNydxcYKqiyt4SEpJH__PMC7B1toGp/edit)
+
 ## Descripción General
 
 MediCount es una aplicación móvil nativa disponible en la plataforma Android. Su funcionamiento es simple y efectivo, permitiendo a los usuarios llevar un registro personalizado de sus medicamentos y horarios de toma, además de recibir notificaciones útiles.
@@ -18,6 +21,7 @@ MediCount es una aplicación móvil nativa disponible en la plataforma Android. 
 ## Tecnologías Utilizadas
 
 MediCount se desarrolla utilizando tecnologías sólidas, como Java, Kotlin y MySQL, para garantizar un rendimiento óptimo y una experiencia confiable.
+
 
 ## Contacto
 
