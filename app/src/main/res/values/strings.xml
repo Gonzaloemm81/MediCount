@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MediCount</string>
+    <string name="Saludo">Hola, bienvenido a MediCount!</string>
+    <string name="btnSiguiente">Siguiente</string>
 </resources>
