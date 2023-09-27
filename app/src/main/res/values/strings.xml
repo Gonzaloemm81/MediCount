@@ -2,4 +2,9 @@
     <string name="app_name">MediCount</string>
     <string name="Saludo">Hola, bienvenido a MediCount!</string>
     <string name="btnSiguiente">Siguiente</string>
+    <string name="title_activity_clock">ClockActivity</string>
+    <string name="Marca">MediCount</string>
+    <string name="Next">Siguiente</string>
+    <string name="Plus">+</string>
+    <string name="Atras">Atrás</string>
 </resources>

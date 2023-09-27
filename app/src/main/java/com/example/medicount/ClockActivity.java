@@ -7,23 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ClockActivity extends AppCompatActivity {
 
-    Button btnSiguiente;
+    Button btnAtras;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_clock);
 
-
-        btnSiguiente = findViewById(R.id.btn_siguiente_m);
-        btnSiguiente.setOnClickListener(new View.OnClickListener() {
+        btnAtras = findViewById(R.id.btn_atras_cl);
+        btnAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ClockActivity.class);
+                Intent intent = new Intent(ClockActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
-
     }
 }

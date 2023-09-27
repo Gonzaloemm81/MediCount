@@ -14,6 +14,7 @@
         android:text="@string/Saludo"
         android:textSize="28sp"
         android:textStyle="bold"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
@@ -33,17 +34,18 @@
         app:lottie_autoPlay="true"
         app:lottie_fileName="animacion4.json"
         app:lottie_imageAssetsFolder="assets"
-        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+        app:lottie_loop="true"
+        tools:ignore="MissingClass"></com.airbnb.lottie.LottieAnimationView>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_siguiente_m"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="244dp"
         android:backgroundTint="@color/light_blue"
         android:text="@string/btnSiguiente"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
 
