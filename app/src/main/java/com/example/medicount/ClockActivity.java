@@ -10,7 +10,7 @@ import android.widget.Button;
 public class ClockActivity extends AppCompatActivity {
 
     Button btnAtras;
-
+    Button btnSiguiente;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +23,17 @@ public class ClockActivity extends AppCompatActivity {
                 Intent intent = new Intent(ClockActivity.this, MainActivity.class);
                 startActivity(intent);
             }
+
         });
+        btnSiguiente = findViewById(R.id.btn_siguiente_cl);
+        btnSiguiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ClockActivity.this,CalendarActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
+
 }
