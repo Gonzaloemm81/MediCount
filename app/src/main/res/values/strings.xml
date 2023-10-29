@@ -1,9 +1,7 @@
 <resources>
-    <string name="app_name">MediCount</string>
-    <string name="Saludo">Hola, bienvenido a MediCount!</string>
-    <string name="btnSiguiente">Siguiente</string>
-    <string name="title_activity_clock">ClockActivity</string>
-    <string name="Marca">MediCount</string>
-    <string name="Plus">+</string>
-    <string name="Atras">Atrás</string>
+    <string name="app_name">Cards1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="texto">Text</string>
 </resources>

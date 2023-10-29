@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MediCount"
+rootProject.name = "Cards1"
 include(":app")
+ 
