@@ -6,9 +6,4 @@
     <string name="Marca">MediCount</string>
     <string name="Plus">+</string>
     <string name="Atras">Atrás</string>
-    <string name="bt_modificar">Modificar</string>
-    <string name="bt_eliminar">Borrar</string>
-    <string name="NombreMedicamento">Nombre del medicamento</string>
-    <string name="Guardar">Guardar</string>
-    <string name="MostrarListado">Mostrar Listado</string>
 </resources>

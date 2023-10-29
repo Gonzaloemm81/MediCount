@@ -34,16 +34,6 @@ public class ClockActivity extends AppCompatActivity {
             }
         });
 
-        Button btnMasCl = findViewById(R.id.btn_mas_cl);
-        btnMasCl.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ClockActivity.this, Agregar.class);
-                startActivity(intent);
-            }
-});
-
-
     }
 
 }
