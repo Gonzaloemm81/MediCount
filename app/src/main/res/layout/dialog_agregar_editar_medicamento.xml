@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="240dp"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25sp"
+        android:hint="Nombre del Medicamento" />
+
+    <EditText
+        android:id="@+id/etDosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25sp"
+        android:hint="Dosis del Medicamento" />
+
+    <EditText
+        android:id="@+id/etHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25sp"
+        android:hint="Hora del Medicamento" />
+
+    <EditText
+        android:id="@+id/etFreq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25sp"
+        android:hint="Frecuencia del Medicamento"/>
+</LinearLayout>

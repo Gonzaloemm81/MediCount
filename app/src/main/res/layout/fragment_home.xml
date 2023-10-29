@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnActualizar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="6dp"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBorrar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="6dp"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="51dp"
+        android:text="Borrar" />
+
+
+
+
+</RelativeLayout>
