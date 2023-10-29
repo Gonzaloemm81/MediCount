@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nombre del medicamento"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        android:contentDescription="@string/NombreMedicamento" />
 
     <View
         android:layout_width="match_parent"
@@ -22,13 +23,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Guardar"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        android:contentDescription="@string/Guardar" />
 
     <Button
         android:id="@+id/bt_mostrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mostrar Listado"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        android:contentDescription="@string/MostrarListado" />
 
 </LinearLayout>

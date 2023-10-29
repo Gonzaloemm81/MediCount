@@ -12,7 +12,8 @@
         android:text="Atrás"
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/Atras"/>
     <EditText
         android:id="@+id/et_nombre"
         android:layout_width="match_parent"
@@ -30,13 +31,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Modificar"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        android:contentDescription="@string/bt_modificar" />
 
     <Button
         android:id="@+id/bt_eliminar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Borrar"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        android:contentDescription="@string/bt_eliminar" />
 
 </LinearLayout>
