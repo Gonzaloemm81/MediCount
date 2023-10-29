@@ -33,10 +33,10 @@
         android:layout_margin="16dp" />
 
     <Button
-        android:id="@+id/bt_mostrar"
+        android:id="@+id/bt_eliminar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mostrar Listado"
+        android:text="Borrar"
         android:layout_margin="16dp" />
 
 </LinearLayout>
