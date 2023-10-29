@@ -13,6 +13,14 @@
         android:theme="@style/Theme.MediCount"
         tools:targetApi="31">
         <activity
+            android:name=".loading"
+            android:exported="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        <activity
             android:name=".CalendarActivity"
             android:exported="false" />
         <activity
@@ -21,11 +29,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
