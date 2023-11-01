@@ -79,6 +79,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put("hora", hora);
         values.put("frecuencia", frecuencia);
         db.update("Medicamentos", values, "_id=?", new String[]{String.valueOf(id)});
+
         db.close();
     }
 
