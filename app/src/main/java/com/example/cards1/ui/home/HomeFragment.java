@@ -14,26 +14,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextClock;
 import android.widget.TimePicker;
 import android.widget.Toast;
-
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.cards1.DatabaseHelper;
-import com.example.cards1.MainActivity;
-import com.example.cards1.MainNotification;
 import com.example.cards1.Medicamento;
 import com.example.cards1.MedicamentoAdapter;
 import com.example.cards1.NotificationHelper;
-import com.example.cards1.NotificationReceiver;
 import com.example.cards1.R;
-
-import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
 
@@ -59,7 +51,7 @@ public class HomeFragment extends Fragment {
 
         databaseHelper = new DatabaseHelper(requireContext());
 
-        // Cargar medicamentos desde la base de datos y establecer en el adaptador
+        // cargar medicamentos desde la base de datos y establecer en el adaptador
         List<Medicamento> medicamentos = databaseHelper.obtenerMedicamentos();
         medicamentoAdapter.setMedicamentos(medicamentos);
         medicamentoAdapter.notifyDataSetChanged();

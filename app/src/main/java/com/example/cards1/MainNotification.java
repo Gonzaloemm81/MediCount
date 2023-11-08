@@ -59,7 +59,7 @@ public class MainNotification extends AppCompatActivity {
     private void createNotificationChannel() {
         String name = getString(R.string.basic_channel_name);
         String channelId = getString(R.string.basic_channel_id);
-        String descriptionText = getString(R.string.basic_channel_description);
+        String descriptionText = "Configuración del canal de notificaciones";
         int importance = NotificationManager.IMPORTANCE_DEFAULT;
 
         NotificationChannel channel = new NotificationChannel(channelId, name, importance);

@@ -4,20 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.DashboardFragment">
+    tools:context=".MainActivity2user">
 
-    <TextView
-        android:id="@+id/text_dashboard"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:text="hola estoy probando"
+
+    <EditText
+        android:id="@+id/edetemailusuario"
+        android:layout_width="267dp"
+        android:layout_height="64dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:ems="10"
+        android:hint="  Email "
+        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="131dp"
+        android:layout_height="133dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071"
+        app:srcCompat="@drawable/usuario" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="351dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/medi_jpg" />
+
+    <ImageButton
+        android:id="@+id/imgbtnsalir"
+        android:layout_width="127dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="img salir"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:srcCompat="@drawable/cerrar_sesion_removebg_preview" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="355dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="72dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edetemailusuario"
+        app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="384dp"
+        android:layout_height="26dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="557dp"
+        tools:ignore="MissingConstraints"></LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

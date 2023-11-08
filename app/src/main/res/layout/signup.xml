@@ -36,7 +36,7 @@
         android:background="@android:drawable/dialog_holo_light_frame"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="  Email"
+        android:hint="  Email"
         android:textAlignment="inherit"
         android:textColor="@color/material_dynamic_neutral40"
         app:layout_constraintBottom_toTopOf="@+id/textView"
@@ -63,8 +63,8 @@
         android:layout_height="48dp"
         android:background="@android:drawable/dialog_holo_light_frame"
         android:ems="10"
-        android:inputType="text"
-        android:text="  Password "
+        android:inputType="textPassword"
+        android:hint="  Password"
         android:textColor="@color/material_dynamic_neutral40"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,8 +79,8 @@
         android:layout_height="50dp"
         android:background="@android:drawable/dialog_holo_light_frame"
         android:ems="10"
-        android:inputType="text"
-        android:text="  Confirm Password "
+        android:inputType="textPassword"
+        android:hint="  Confirm Password"
         android:textColor="@color/material_dynamic_neutral40"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -127,19 +127,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.491"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/facebook" />
 
     <ImageButton
         android:id="@+id/btnwhatsapp"
         android:layout_width="77dp"
         android:layout_height="68dp"
-        android:contentDescription="Whatsapp Button"
+        android:contentDescription="Google Button"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.487"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/google" />
 
     <ImageButton
@@ -154,6 +156,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtpassword"
         app:layout_constraintVertical_bias="0.838"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/twitter" />
 
 

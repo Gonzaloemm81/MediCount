@@ -6,35 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2user">
 
+
     <EditText
         android:id="@+id/edetemailusuario"
         android:layout_width="267dp"
         android:layout_height="64dp"
         android:background="@android:drawable/dialog_holo_light_frame"
         android:ems="10"
+        android:hint="  Email "
         android:inputType="textEmailAddress"
-        android:text="  Email "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.306" />
-
-    <EditText
-        android:id="@+id/edtnombreusuario"
-        android:layout_width="268dp"
-        android:layout_height="58dp"
-        android:background="@android:drawable/dialog_holo_light_frame"
-        android:ems="10"
-        android:inputType="text"
-        android:text=" nombre "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.278" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -42,59 +27,48 @@
         android:layout_height="133dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071"
+        app:layout_constraintVertical_bias="0.046"
         app:srcCompat="@drawable/usuario" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="351dp"
         android:layout_height="52dp"
+        android:layout_marginBottom="152dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:srcCompat="@drawable/medi_jpg" />
-
-    <ImageButton
-        android:id="@+id/imgbtnsetting"
-        android:layout_width="135dp"
-        android:layout_height="108dp"
-        android:rotationX="47"
-        android:contentDescription="setting"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtnombreusuario"
-        app:layout_constraintVertical_bias="0.505"
-        app:srcCompat="@drawable/setting_medical" />
+        app:srcCompat="@drawable/medicount" />
 
     <ImageButton
         android:id="@+id/imgbtnsalir"
         android:layout_width="127dp"
         android:layout_height="97dp"
-        android:scaleType="fitStart"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
         android:contentDescription="img salir"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        android:scaleType="fitStart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toEndOf="@+id/imgbtnsetting"
-        app:layout_constraintTop_toBottomOf="@+id/edtnombreusuario"
-        app:layout_constraintVertical_bias="0.471"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
         app:srcCompat="@drawable/cerrar_sesion_removebg_preview" />
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="355dp"
         android:layout_height="22dp"
+        android:layout_marginBottom="428dp"
         android:background="@android:drawable/dialog_holo_light_frame"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/imgbtnsetting"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtnombreusuario"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/edetemailusuario"
+        app:layout_constraintVertical_bias="1.0"></LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -102,11 +76,10 @@
         android:layout_height="26dp"
         android:background="@android:drawable/dialog_holo_light_frame"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtnsetting"
-        app:layout_constraintVertical_bias="0.571"></LinearLayout>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="456dp"></LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

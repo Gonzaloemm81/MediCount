@@ -28,7 +28,7 @@ public class NotificationHelper {
 
     @RequiresApi(api = Build.VERSION_CODES.Q)
     public void createNotificationChannel() {
-        String name = "nombre_de_mi_canal";
+        String name = "MediCountChannel";
         String channelId = "mi_canal_de_notificaciones";
         String descriptionText = "descripcion de mi canal de notificaciones";
         int importance = NotificationManager.IMPORTANCE_DEFAULT;

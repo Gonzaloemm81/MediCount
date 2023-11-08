@@ -6,6 +6,6 @@
     <string name="texto">Text</string>
     <string name="SignUp">Sign Up</string>
     <string name="basic_channel_id">mi_canal_de_notificaciones</string>
-    <string name="basic_channel_name">Nombre de mi canal</string>
+    <string name="basic_channel_name">MediCountChannel</string>
     <string name="basic_channel_description">Descripción de mi canal de notificaciones</string>
 </resources>

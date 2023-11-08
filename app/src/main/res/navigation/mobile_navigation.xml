@@ -15,11 +15,6 @@
         android:id="@+id/navigation_dashboard"
         android:name="com.example.cards1.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
-    <activity
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.cards1.MainActivity2user"
-        android:label="navigation_notifications"
         tools:layout="@layout/activity_main_activity2user" />
+
 </navigation>
